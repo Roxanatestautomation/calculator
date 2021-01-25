@@ -17,8 +17,25 @@ public class App {
         System.out.println("The product is " + product);
 
         System.out.println("Calculating the division of " + x + " and " + y);
-        double result = calculator.divide(x, y);
+        int result = calculator.divide(x, y);
         System.out.println("The division is " + result);
+
+        System.out.println();
+
+        double m = 127.55;
+        double n = 323.99;
+
+        System.out.println("Calculating the sum of " + x + " and " + y);
+        double doubleSum = calculator.sum(x, y);
+        System.out.println("The sum is " + doubleSum);
+
+        System.out.println("Calculating the product of " + x + " and " + y);
+        double doubleProduct = calculator.multiply(x, y);
+        System.out.println("The product is " + doubleProduct);
+
+        System.out.println("Calculating the division of " + x + " and " + y);
+        double doubleResult = calculator.divide(x, y);
+        System.out.println("The division is " + doubleResult);
 
     }
 }
